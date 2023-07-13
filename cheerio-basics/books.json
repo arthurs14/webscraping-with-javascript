@@ -1,0 +1,20 @@
+[
+  {
+    "Book_Title": "The Great Gatsby",
+    "Author": "By F. Scott Fitzgerald",
+    "Release_Date": "Released: April 10, 1925",
+    "Price": "Price: $12.99"
+  },
+  {
+    "Book_Title": "To Kill a Mockingbird",
+    "Author": "By Harper Lee",
+    "Release_Date": "Released: July 11, 1960",
+    "Price": "Price: $10.99"
+  },
+  {
+    "Book_Title": "1984",
+    "Author": "By George Orwell",
+    "Release_Date": "Released: June 8, 1949",
+    "Price": "Price: $9.99"
+  }
+]
