@@ -1,10 +1,5 @@
 import axios from 'axios';
 import { load } from 'cheerio';
-import express from 'express';
-
-const app = express();
-
-const PORT = 8000 || process.env.PORT;
 
 const url = 'http://quotes.toscrape.com/';
 
@@ -22,5 +17,3 @@ axios(url).then((response) => {
 
   console.log(quotes);
 });
-
-app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
