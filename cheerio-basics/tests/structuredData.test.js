@@ -1,5 +1,5 @@
-import { book } from './html-snippets';
-import getBookInfo from './utils';
+import { book } from '../html-snippets';
+import getBookInfo from '../utils';
 
 test('getBookInfo returns the correct book information', () => {
   const htmlString = book;
