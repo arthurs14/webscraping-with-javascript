@@ -3,7 +3,7 @@ import { load } from 'cheerio';
 
 const quotes = [];
 
-const getTwoPageQuotes = async () => {
+const getAllQuotes = async () => {
   for (let i = 1; i <= 10; i++) {
     const url = `http://quotes.toscrape.com/page/${i}`;
     const response = await axios.get(url);
@@ -26,4 +26,4 @@ const getTwoPageQuotes = async () => {
   console.log('quotes ::', quotes);
 };
 
-getTwoPageQuotes();
+getAllQuotes();

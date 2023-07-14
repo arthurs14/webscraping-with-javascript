@@ -1,4 +1,4 @@
-import { book } from './index';
+import { book } from './html-snippets';
 import getBookInfo from './utils';
 
 test('getBookInfo returns the correct book information', () => {
