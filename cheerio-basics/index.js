@@ -35,6 +35,15 @@ const script = `
   </div>
 `;
 
+const book = `
+  <div class="book-info">
+    <h2 class="book-title">The Great Gatsby</h2>
+    <p class="author">By F. Scott Fitzgerald</p>
+    <p class="release-date">Released: April 10, 1925</p>
+    <p class="price">Price: $12.99</p>
+  </div>
+`;
+
 const booksObj = `
   <div class="book-info">
     <h2 class="book-title">The Great Gatsby</h2>
@@ -104,3 +113,5 @@ fs.writeFileSync('books.json', jsonifyData, () =>
 );
 
 // console.log(booksArr);
+
+export { book, booksObj };
